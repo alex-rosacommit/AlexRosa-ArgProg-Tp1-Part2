@@ -12,7 +12,7 @@ public class TP1Ejer2Class {
 		 boolean naveLujo = true;  
 		
 		//Si pertenece al segmento de ingresos alto
-		if(ingrMen >= 489083 && cantVehiculos >= 3 && cantInmuebles >= 3 && naveLujo == true) {
+		if((ingrMen >= 489083) && (cantVehiculos >= 3) && (cantInmuebles >= 3) && (naveLujo == true)) {
 			System.out.println("La persona pertenece al segmento de ingresos Altos - I.");
 		}
 		
